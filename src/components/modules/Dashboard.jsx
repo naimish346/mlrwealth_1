@@ -10,8 +10,8 @@ import {
   CheckCircle,
   Clock,
 } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
-import { Badge } from "../ui/Badge";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Badge } from "../ui/badge";
 import { useAppStore } from "../../store/appStore";
 import {
   PieChart,

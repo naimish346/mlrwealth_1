@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useAppStore } from '../../store/appStore';
-import { Button } from '../ui/Button';
-import { Input } from '../ui/Input';
+import { Button } from '../ui/button';
+import { Input } from '../ui/input';
 import { Lock, Mail, Shield, Eye, EyeOff } from 'lucide-react';
 
 export const LoginPage = () => {

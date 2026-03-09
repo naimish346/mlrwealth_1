@@ -18,9 +18,9 @@ import {
   Eye,
 } from "lucide-react";
 import { format, isValid } from "date-fns";
-import { Card, CardContent } from "../../ui/Card";
-import { Button } from "../../ui/Button";
-import { Input, Select } from "../../ui/Input";
+import { Card, CardContent } from "../../ui/card";
+import { Button } from "../../ui/button";
+import { Input, Select } from "../../ui/input";
 import { Modal } from "../../ui/Modal";
 import {
   Table,
@@ -29,7 +29,7 @@ import {
   TableRow,
   TableHead,
   TableCell,
-} from "../../ui/Table";
+} from "../../ui/table";
 import { useAppStore } from "../../../store/appStore";
 import { toast } from "sonner";
 import { useEffect } from "react";
