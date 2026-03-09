@@ -11,11 +11,11 @@ import {
   Search,
   Filter,
 } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
-import { Button } from '../ui/Button';
-import { Badge } from '../ui/Badge';
-import { Input } from '../ui/Input';
-import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '../ui/Table';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Button } from '../ui/button';
+import { Badge } from '../ui/badge';
+import { Input } from '../ui/input';
+import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '../ui/table';
 import { Modal } from '../ui/Modal';
 import { useAppStore } from '../../store/appStore';
 
